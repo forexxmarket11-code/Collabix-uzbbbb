@@ -79,14 +79,14 @@ export const PWAInstallPrompt: React.FC = () => {
             <div className="min-w-0">
               <h4 className="font-heading font-bold text-sm text-white tracking-tight flex items-center gap-1.5 truncate">
                 <span>Collabix Ilovasi</span>
-                <span className="text-[10px] uppercase font-mono px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                <span className="hidden sm:inline text-[10px] uppercase font-mono px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
                   PWA
                 </span>
               </h4>
               <p className="text-xs text-slate-300 truncate">
                 {isIOS
-                  ? "Tezkor kirish uchun ekranga qo'shing"
-                  : "Tez va qulay ishlash uchun ilovani o'rnating"}
+                  ? "Ekranga qo'shing"
+                  : "Tez va qulay ishlash"}
               </p>
             </div>
           </div>
